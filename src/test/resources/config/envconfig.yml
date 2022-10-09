@@ -1,0 +1,19 @@
+commonconfigs:
+  relaxed_https: 'true'
+  url_encoding_enabled: 'true'
+  max_timeout: '60'
+  polling_time: '5'
+
+qaenv:
+  host_uri: 'https://jsonplaceholder.typicode.com'
+  context_path: '/context'
+  follow_redirects: 'false'
+#  enable when proxy is required
+#  proxy: 'http://localhost:8080/'
+
+devenv:
+  host_uri: 'https://jsonplaceholder.typicode.com'
+  context_path: '/context'
+  follow_redirects: 'false'
+#  enable when proxy is required
+#  proxy: 'http://localhost:8080/'
